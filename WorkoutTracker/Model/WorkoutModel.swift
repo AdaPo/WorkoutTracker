@@ -7,7 +7,7 @@
 
 import Foundation
 
-enum Focus {
+enum Focus: String {
     case legs = "Legs"
     case chest = "Chest"
     case shoulders = "Shoulders"
