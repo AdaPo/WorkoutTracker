@@ -88,13 +88,21 @@
                                     <constraint firstAttribute="height" constant="80" id="i9E-ly-Dej"/>
                                 </constraints>
                             </view>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="JEn-Mj-l1p">
+                                <rect key="frame" x="0.0" y="80" width="390" height="681"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </tableView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="AJu-Ze-Ha1"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="AJu-Ze-Ha1" firstAttribute="trailing" secondItem="JEn-Mj-l1p" secondAttribute="trailing" id="2yI-CA-QAs"/>
                             <constraint firstItem="aLs-XE-N4B" firstAttribute="trailing" secondItem="AJu-Ze-Ha1" secondAttribute="trailing" id="FaB-OY-8Ag"/>
+                            <constraint firstItem="JEn-Mj-l1p" firstAttribute="top" secondItem="aLs-XE-N4B" secondAttribute="bottom" id="cEL-RH-735"/>
                             <constraint firstItem="aLs-XE-N4B" firstAttribute="leading" secondItem="AJu-Ze-Ha1" secondAttribute="leading" id="eEt-8X-X1u"/>
+                            <constraint firstItem="AJu-Ze-Ha1" firstAttribute="bottom" secondItem="JEn-Mj-l1p" secondAttribute="bottom" id="kml-4f-LK4"/>
                             <constraint firstItem="aLs-XE-N4B" firstAttribute="top" secondItem="b5x-lk-4OU" secondAttribute="top" id="vSZ-9h-Fch"/>
+                            <constraint firstItem="JEn-Mj-l1p" firstAttribute="leading" secondItem="AJu-Ze-Ha1" secondAttribute="leading" id="zqb-6V-yxw"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Home" image="house" catalog="system" id="1Sd-Z0-qtR"/>
