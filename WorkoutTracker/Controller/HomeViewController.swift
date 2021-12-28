@@ -27,11 +27,17 @@ class HomeViewController: UIViewController {
     }
 
     @IBAction func addButtonPressed(_ sender: Any) {
+        let sb = UIStoryboard(name: "Main", bundle: nil)
+        let alert = sb.instantiateViewController(withIdentifier: "alert")
+        alert.modalPresentationStyle = UIModalPresentationStyle.overFullScreen
+        alert.modalTransitionStyle = UIModalTransitionStyle.crossDissolve
+        self.present(alert, animated: true, completion: nil)
     }
 }
 //MARK: - TableViewDelegate
 extension HomeViewController: UITableViewDelegate {
 }
+
 //MARK: - TableViewDataSource
 extension HomeViewController: UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {

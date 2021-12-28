@@ -117,6 +117,48 @@
             </objects>
             <point key="canvasLocation" x="484.61538461538458" y="-365.40284360189571"/>
         </scene>
+        <!--Alert View Controller-->
+        <scene sceneID="XS4-d7-uqu">
+            <objects>
+                <viewController storyboardIdentifier="alert" id="mAl-nz-fcO" customClass="AlertViewController" customModule="WorkoutTracker" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="PN7-du-6FN">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view alpha="0.5" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cNg-mt-M3A">
+                                <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rLq-LK-KVW">
+                                <rect key="frame" x="75" y="124" width="240" height="509"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zAM-w0-is5">
+                                        <rect key="frame" x="105" y="460" width="30" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="Add"/>
+                                        <connections>
+                                            <action selector="addButtonPressed:" destination="mAl-nz-fcO" eventType="touchUpInside" id="rr7-oh-MdL"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="n8g-fz-hB9"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="cNg-mt-M3A" secondAttribute="trailing" id="2B8-le-i5S"/>
+                            <constraint firstAttribute="bottom" secondItem="cNg-mt-M3A" secondAttribute="bottom" id="5up-w3-kec"/>
+                            <constraint firstItem="cNg-mt-M3A" firstAttribute="leading" secondItem="n8g-fz-hB9" secondAttribute="leading" id="d3A-AZ-PEZ"/>
+                            <constraint firstItem="cNg-mt-M3A" firstAttribute="top" secondItem="PN7-du-6FN" secondAttribute="top" id="r9I-f3-hqW"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Yoe-qx-Hlh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1180" y="-365.40284360189571"/>
+        </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="k6Z-Rw-K53">
             <objects>
