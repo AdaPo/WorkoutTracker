@@ -11,7 +11,7 @@
         <!--Exercises-->
         <scene sceneID="9gq-Ut-hMp">
             <objects>
-                <viewController id="sEM-TI-kto" sceneMemberID="viewController">
+                <viewController id="sEM-TI-kto" customClass="ExerciseViewController" customModule="WorkoutTracker" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="qiv-ul-rJh">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -50,7 +50,7 @@
         <!--Home-->
         <scene sceneID="Rgy-OR-b17">
             <objects>
-                <viewController id="Ieb-9a-jLg" sceneMemberID="viewController">
+                <viewController id="Ieb-9a-jLg" customClass="HomeViewController" customModule="WorkoutTracker" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="b5x-lk-4OU">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
