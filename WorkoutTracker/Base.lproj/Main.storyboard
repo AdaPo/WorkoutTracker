@@ -59,44 +59,6 @@
         <scene sceneID="Rgy-OR-b17">
             <objects>
                 <viewController id="Ieb-9a-jLg" customClass="HomeViewController" customModule="WorkoutTracker" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="b5x-lk-4OU">
-                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aLs-XE-N4B">
-                                <rect key="frame" x="0.0" y="0.0" width="390" height="80"/>
-                                <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Workout Tracker" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ek7-8n-aK5">
-                                        <rect key="frame" x="111.66666666666669" y="48" width="167" height="20"/>
-                                        <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="20"/>
-                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                </subviews>
-                                <color key="backgroundColor" red="0.25098039220000001" green="0.43921568630000002" blue="0.53333333329999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <constraints>
-                                    <constraint firstItem="Ek7-8n-aK5" firstAttribute="centerX" secondItem="aLs-XE-N4B" secondAttribute="centerX" id="UXs-pP-3Hj"/>
-                                    <constraint firstItem="Ek7-8n-aK5" firstAttribute="centerY" secondItem="aLs-XE-N4B" secondAttribute="centerY" constant="18" id="aNg-Uu-PcZ"/>
-                                    <constraint firstAttribute="height" constant="80" id="i9E-ly-Dej"/>
-                                </constraints>
-                            </view>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Nu1-hK-QPV">
-                                <rect key="frame" x="0.0" y="80" width="390" height="681"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                            </tableView>
-                        </subviews>
-                        <viewLayoutGuide key="safeArea" id="AJu-Ze-Ha1"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                        <constraints>
-                            <constraint firstItem="aLs-XE-N4B" firstAttribute="trailing" secondItem="AJu-Ze-Ha1" secondAttribute="trailing" id="FaB-OY-8Ag"/>
-                            <constraint firstItem="Nu1-hK-QPV" firstAttribute="bottom" secondItem="AJu-Ze-Ha1" secondAttribute="bottom" id="RES-4l-JCS"/>
-                            <constraint firstItem="aLs-XE-N4B" firstAttribute="leading" secondItem="AJu-Ze-Ha1" secondAttribute="leading" id="eEt-8X-X1u"/>
-                            <constraint firstItem="Nu1-hK-QPV" firstAttribute="trailing" secondItem="AJu-Ze-Ha1" secondAttribute="trailing" id="flB-Rx-xzC"/>
-                            <constraint firstItem="Nu1-hK-QPV" firstAttribute="top" secondItem="aLs-XE-N4B" secondAttribute="bottom" id="m8i-aV-BcG"/>
-                            <constraint firstItem="Nu1-hK-QPV" firstAttribute="leading" secondItem="AJu-Ze-Ha1" secondAttribute="leading" id="s1A-TZ-CgP"/>
-                            <constraint firstItem="aLs-XE-N4B" firstAttribute="top" secondItem="b5x-lk-4OU" secondAttribute="top" id="vSZ-9h-Fch"/>
-                        </constraints>
-                    </view>
                     <tabBarItem key="tabBarItem" title="Home" image="house" catalog="system" id="1Sd-Z0-qtR"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yfE-Ur-8ca" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

@@ -8,16 +8,16 @@
 import Foundation
 
 enum Focus {
-    case legs
-    case chest
-    case shoulders
-    case back
-    case arms
-    case upperBody
-    case lowerBody
-    case push
-    case pull
-    case cardio
+    case legs = "Legs"
+    case chest = "Chest"
+    case shoulders = "Shoulders"
+    case back = "Back"
+    case arms = "Arms"
+    case upperBody = "Upper Body"
+    case lowerBody = "Lower Body"
+    case push = "Push"
+    case pull = "Pull"
+    case cardio = "Cardio"
 }
 
 struct WorkoutModel {
